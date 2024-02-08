@@ -16,11 +16,9 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '12.0'
   s.swift_version     = '5.6'
   s.homepage          	= "https://survicate.com"
-  s.license           	= { :type => "MIT", :file => "LICENSE" }
   s.author            	= { "Survicate" => "hello@survicate.com" }
   s.source_files        = 'Sources/survicate-uxcam-integration/*'
   s.source              = { :git => 'https://github.com/Survicate/survicate-uxcam-integration-ios.git', :tag => '1.0.0' }
-
 
   s.dependency 'UXCam'
   s.dependency 'Survicate', '>= 4.1.0'

@@ -21,7 +21,7 @@ let package = Package(
         .target(
             name: "survicate-uxcam-integration",
             dependencies: [
-                .product(name: "UXCam", package: "ios-sdk"),
+                .product(name: "UXCam", package: "uxcam-ios-sdk"),
                 .product(name: "Survicate", package: "survicate-ios-sdk"),
             ]
         ),

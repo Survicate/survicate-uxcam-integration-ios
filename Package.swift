@@ -13,7 +13,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/Survicate/survicate-ios-sdk", from: "4.1.0"),
-        .package(url: "https://github.com/uxcam/uxcam-ios-sdk", from: "3.6.9"),
+        .package(url: "https://github.com/uxcam/ios-sdk", from: "3.6.0"),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -21,7 +21,7 @@ let package = Package(
         .target(
             name: "survicate-uxcam-integration",
             dependencies: [
-                .product(name: "UXCam", package: "uxcam-ios-sdk"),
+                .product(name: "UXCam", package: "ios-sdk"),
                 .product(name: "Survicate", package: "survicate-ios-sdk"),
             ]
         ),

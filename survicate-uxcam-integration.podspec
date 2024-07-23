@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
   s.author            	= { "Survicate" => "hello@survicate.com" }
   s.source_files        = 'Sources/survicate-uxcam-integration/*'
   s.source              = { :git => 'https://github.com/Survicate/survicate-uxcam-integration-ios.git', :tag => '1.1.0' }
+  s.static_framework    = true
 
   s.dependency 'UXCam'
   s.dependency 'Survicate', '>= 5.1.1'

@@ -31,8 +31,11 @@ pod 'survicate-uxcam-integration'
 In order to activate the integration library, go to the place in your app where you initialize the Survicate SDK and register `SurvicateUXCamIntegration` as an event listener:
 
 ```swift
+import Survicate
+import survicate_uxcam_integration
+
 SurvicateSdk.shared.initialize()
-SurvicateSdk.shared.addEventListener(SurvicateUXCamIntegration())
+SurvicateSdk.shared.addListener(SurvicateUXCamIntegration())
 ```
 
 That's it. You can use all UXCam and Survicate features as usual. Every survey answer will be automatically logged to the UXCam using the `UXCam.logEvent` method.

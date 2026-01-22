@@ -8,7 +8,7 @@ To integrate Survicate UXCam integration into your Xcode project using Swift Pac
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/Survicate/survicate-uxcam-integration-ios", from: "1.2.0")
+    .package(url: "https://github.com/Survicate/survicate-uxcam-integration-ios", from: "1.3.0")
 ]
 ```
 

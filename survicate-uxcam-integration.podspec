@@ -22,5 +22,5 @@ Pod::Spec.new do |s|
   s.static_framework    = true
 
   s.dependency 'UXCam'
-  s.dependency 'Survicate', '>= 7.0.0'
+  s.dependency 'Survicate', '~> 7.0'
 end

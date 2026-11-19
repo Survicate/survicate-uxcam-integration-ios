@@ -8,19 +8,19 @@
 
 Pod::Spec.new do |s|
   s.name             = 'survicate-uxcam-integration'
-  s.version          = '1.5.0'
+  s.version          = '1.6.0'
   s.summary          = 'Survicate UXCam Integration'
   s.description      = <<-DESC
   A thin library designed for seamless integration between Survicate and UXCam on iOS. It automatically sends survey answers coming from Survicate SDK as UXCam events that can be previewed directly in the UXCam panel.
                        DESC
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '15.0'
   s.swift_version     = '5.6'
   s.homepage          	= "https://survicate.com"
   s.author            	= { "Survicate" => "hello@survicate.com" }
   s.source_files        = 'Sources/survicate-uxcam-integration/*'
-  s.source              = { :git => 'https://github.com/Survicate/survicate-uxcam-integration-ios.git', :tag => '1.5.0' }
+  s.source              = { :git => 'https://github.com/Survicate/survicate-uxcam-integration-ios.git', :tag => '1.6.0' }
   s.static_framework    = true
 
   s.dependency 'UXCam'
-  s.dependency 'Survicate', '~> 9.0'
+  s.dependency 'Survicate', '~> 10.0'
 end

@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "survicate-uxcam-integration",
+    platforms: [.iOS(.v15)],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
@@ -12,7 +13,7 @@ let package = Package(
             targets: ["survicate-uxcam-integration"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Survicate/survicate-ios-sdk", from: "9.0.0"),
+        .package(url: "https://github.com/Survicate/survicate-ios-sdk", from: "10.0.0"),
         .package(url: "https://github.com/uxcam/uxcam-ios", from: "3.9.1"),
     ],
     targets: [

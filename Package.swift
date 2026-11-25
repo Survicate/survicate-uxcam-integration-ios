@@ -13,7 +13,7 @@ let package = Package(
             targets: ["survicate-uxcam-integration"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Survicate/survicate-ios-sdk", from: "10.0.0"),
+        .package(url: "https://github.com/Survicate/survicate-ios-sdk", from: "10.0.1"),
         .package(url: "https://github.com/uxcam/uxcam-ios", from: "3.9.1"),
     ],
     targets: [
